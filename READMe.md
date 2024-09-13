@@ -6,9 +6,9 @@ Implementing the Caesar and Vigenère ciphering  schemes through command-line in
 
 ## resources 
 ### Stack Overflow
-Error Look up and general debugging guidance
+Error Look up and general debugging guidance.
 ### Evening Tutors and Professor Peter-Michael Osera
-Conversational help on Maven setup up and JUnit Testing
+Conversational help on Maven setup up and JUnit Testing.
 ### Peer Collaboration
-Kevin Tang: Assisted with Setting up Testing Environment
-Kostiantyn Tsymbol: Collaborated on code debugging
+Kevin Tang: Assisted with Setting up Testing Environment.
+Kostiantyn Tsymbol: Collaborated on code debugging.

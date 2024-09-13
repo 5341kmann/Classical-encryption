@@ -14,4 +14,5 @@ Kevin Tang: Assisted with Setting up Testing Environment.
 Kostiantyn Tsymbol: Collaborated on code debugging.
 
 ### GitHub
-https://github.com/5341kmann/Classical-encryption.git
+[Private Access Link Hosted on GitFront] (https://gitfront.io/r/5341kmann/AwQoEkkbCYFK/Classical-encryption/)
+

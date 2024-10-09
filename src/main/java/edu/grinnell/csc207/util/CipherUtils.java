@@ -3,6 +3,8 @@ package edu.grinnell.csc207.util;
 /**
  * Utility Class: Providing core functionality of Vigenere and Caesar Cipher encryption and
  * decryption schemes.
+ * Written for Prof. Samuel Rebelsky's CSC-207 Fall 2024.
+ * @author Grant Sackmann
  */
 public class CipherUtils {
   /** ASCII base-ing value. */

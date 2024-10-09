@@ -2,15 +2,20 @@ package edu.grinnell.csc207.util;
 
 /**
  * Utility Class: Providing core functionality of Vigenere and Caesar Cipher encryption and
- * decryption schemes.
- * Written for Prof. Samuel Rebelsky's CSC-207 Fall 2024.
+ * decryption schemes. Written for Prof. Samuel Rebelsky's CSC-207 Fall 2024.
+ *
  * @author Grant Sackmann
  */
 public class CipherUtils {
-  /** ASCII base-ing value. */
+
+  /**
+   * ASCII base-ing value.
+   */
   private static final int BASE = 97;
 
-  /** English alphabet length. */
+  /**
+   * English alphabet length.
+   */
   private static final int ALPHABET_LEN = 26;
 
   /**
@@ -38,7 +43,7 @@ public class CipherUtils {
   /**
    * Returns the String Caesar encryption of the given String message and char letter shift key.
    *
-   * @param str String message
+   * @param str    String message
    * @param letter char letter shift
    * @return String Caesar encrypted String
    */
@@ -50,7 +55,7 @@ public class CipherUtils {
       int newLetterAsInt = (letter2int(str.charAt(i)) + keyVal) % ALPHABET_LEN;
       stringBuilder.append(int2letter(newLetterAsInt));
     } // end for
-    
+
     String newString = stringBuilder.toString();
     // clearing stringBuilder
     stringBuilder.setLength(0);
@@ -60,7 +65,7 @@ public class CipherUtils {
   /**
    * Returns the String Caesar .decryption of the given String char letter shift key.
    *
-   * @param str String message
+   * @param str    String message
    * @param letter char letter shift
    * @return String String of the decrypted message
    */

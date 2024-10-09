@@ -1,13 +1,17 @@
 package edu.grinnell.csc207.main;
 
 import edu.grinnell.csc207.util.CipherUtils;
+
 import java.io.PrintWriter;
 
-/** ALLCaesar class, encapsulating all Caesar cipher functionality. 
- * Written for Prof. Samuel Rebelsky's CSC-207 Fall 2024.
+/**
+ * ALLCaesar class, encapsulating all Caesar cipher functionality. Written for Prof. Samuel
+ * Rebelsky's CSC-207 Fall 2024.
+ *
  * @author Grant Sackmann
  */
 public class AllCaesar {
+
   /**
    * Returns wether String str is lowercase.
    *

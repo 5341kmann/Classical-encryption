@@ -3,13 +3,18 @@ package edu.grinnell.csc207.main;
 import edu.grinnell.csc207.util.CipherUtils;
 import java.io.PrintWriter;
 
-/** Cipher class, enabling both caesar and vigenere cipher functionality.
- * Written for Prof. Samuel Rebelsky's CSC-207 Fall 2024.
+/**
+ * Cipher class, enabling both caesar and vigenere cipher functionality. Written for Prof. Samuel
+ * Rebelsky's CSC-207 Fall 2024.
+ *
  * @author Grant Sackmann
  */
 public class Cipher {
-  /** Maximum number of CML arguments. */
+  /**
+   * Maximum number of CML arguments.
+   */
   private static final int MAX_SIZE = 4;
+
   /**
    * Returns truth value of wether String argument is valid.
    *
